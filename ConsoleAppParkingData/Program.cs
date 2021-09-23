@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using System.Text.Json;
+using System.Collections.Generic;
 
 namespace ConsoleAppParkingData
 {
@@ -6,7 +9,12 @@ namespace ConsoleAppParkingData
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string json = File.ReadAllText(@"D:\json\parkingData.json");
+            var parkingCity = Newtonsoft.Json.JsonConvert.DeserializeObject<List<ParkingCity>>(json);
+            foreach (var i in parkingCity)
+            {
+                Console.WriteLine(i.name);
+            }
         }
     }
 }
