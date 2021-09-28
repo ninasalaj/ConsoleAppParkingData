@@ -3,3 +3,12 @@ C -create
 R - read
 U - update
 D - delete
+
+- dodati opciju u izborniku Ispiši gradove. Ispis, osim naziva ispis
+uključuje i companyId te broj zona
+- dodati opciju u izborniku Ispiši gradove abecedno ulazno (linq)
+- dodati opciju u izborniku Ispiši gradove abecedno silazno (linq)
+- Ispiši grad s najviše zona
+- ispiši gradove s brojem zona (od najmanjeg broja do najvećeg)
+- dodaj pretragu grada po nazivu zone (svi gradovi koji imaju tu zonu)
+- ispiuši sve gradove koji počinju s "V" i imaju više od 2 zone
