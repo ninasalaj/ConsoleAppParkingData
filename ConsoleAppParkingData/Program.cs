@@ -13,7 +13,7 @@ namespace ConsoleAppParkingData
             var parkingCity = Newtonsoft.Json.JsonConvert.DeserializeObject<List<ParkingCity>>(json);
             foreach (var i in parkingCity)
             {
-                Console.WriteLine(i.name);
+                Console.WriteLine(i.Name);
             }
         }
     }

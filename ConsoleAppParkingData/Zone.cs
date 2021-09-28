@@ -8,11 +8,11 @@ namespace ConsoleAppParkingData
 {
     public class Zone
     {
-        public string name { get; set; }
-        public List<Value> Values { get; set; } 
-        public bool variablePrice { get; set; }
-        public string color { get; set; }
-        public string unselectedColor { get; set; }
-        public string textColor { get; set; }
+        public string Name { get; set; }
+        public List<Ticket> Tickets { get; set; } 
+        public bool VariablePrice { get; set; }
+        public string Color { get; set; }
+        public string UnselectedColor { get; set; }
+        public string TextColor { get; set; }
     }
 }

@@ -8,8 +8,8 @@ namespace ConsoleAppParkingData
 {
     public class ParkingCity
     {
-        public string name { get; set; }
-        public string companyId { get; set; }
+        public string Name { get; set; }
+        public string CompanyId { get; set; }
         public List<Zone> Zones { get; set; }
     }
 }
