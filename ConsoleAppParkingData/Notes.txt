@@ -1,0 +1,5 @@
+﻿CRUD - operacije nad podacima
+C -create
+R - read
+U - update
+D - delete
