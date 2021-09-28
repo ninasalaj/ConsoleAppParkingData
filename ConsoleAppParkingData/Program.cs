@@ -9,7 +9,7 @@ namespace ConsoleAppParkingData
     {
         static void Main(string[] args)
         {
-            string json = File.ReadAllText(@"D:\json\parkingData.json");
+            string json = File.ReadAllText(@"parkingData.json");
             var parkingCity = Newtonsoft.Json.JsonConvert.DeserializeObject<List<ParkingCity>>(json);
             foreach (var i in parkingCity)
             {
