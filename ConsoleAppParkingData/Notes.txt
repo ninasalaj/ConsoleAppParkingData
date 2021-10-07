@@ -8,7 +8,6 @@ D - delete
 uključuje i companyId te broj zona
 - dodati opciju u izborniku Ispiši gradove abecedno ulazno (linq)
 - dodati opciju u izborniku Ispiši gradove abecedno silazno (linq)
-- Ispiši grad s najviše zona (linq)
 - ispiši gradove s brojem zona (od najmanjeg broja do najvećeg) (linq)
 - dodaj pretragu grada po nazivu zone (svi gradovi koji imaju tu zonu)
 - ispiši sve gradove koji počinju s "V" i imaju više od 2 zone (linq)
